@@ -1,0 +1,127 @@
+.bgRed {
+  background-color: red;
+}
+
+.bgYellow {
+  background-color: yellow;
+}
+
+.bgBlue {
+  background-color: blue;
+}
+
+.bgWhite {
+  background-color: white;
+}
+
+.bgGreen {
+  background-color: green;
+}
+
+.bgSoftBlue{
+  background-color: #85c3f2;
+}
+
+.bgPink{
+  background-color: #fc8fdd;
+}
+
+.bgSoftOrange{
+  background-color: #fcc18f;
+}
+
+.bgBrown{
+  background-color: #6d4a2c
+}
+
+.bgBlack{
+  background-color: black;
+}
+
+
+main{
+    width: 600px;
+}
+
+main .row:nth-child(1){
+    display: flex;
+    height: 185px;
+    border-bottom: black solid 15px;
+    border-right: black solid 15px;
+}
+
+main .row:nth-child(1) .case:nth-child(2){
+    width: 100px;
+    border-right: solid black 15px;
+    border-left: solid black 15px;
+    margin-left: 20px;
+}
+
+main .row:nth-child(1) .case:nth-child(3){
+    width: 206px;
+    border-right: solid black 15px;
+}
+
+main .row:nth-child(1) .case:nth-child(4){
+    width: 230px;
+}
+
+main .row:nth-child(2){
+    display: flex;
+    height: 185px;
+    border-bottom: black solid 15px;
+    border-right: black solid 15px;
+}
+
+main .row:nth-child(2) .case:nth-child(2){
+    width: 109px;
+    border-right: solid black 15px;
+    border-left: solid black 15px;
+    margin-left: 20px;
+}
+
+main .row:nth-child(2) .case:nth-child(3){
+    width: 224px;
+    border-right: solid black 15px;
+}
+main .row:nth-child(2) .case:nth-child(4){
+    width: 102px;
+    border-right: solid black 15px;
+}
+main .row:nth-child(2) .case:nth-child(5){
+    width: 130px;
+}
+
+main .row:nth-child(3){
+    display: flex;
+    height: 205px;
+}
+
+.row_case:nth-child(1){
+    height: 95px;
+    border-bottom: black solid 15px;
+}
+
+.row_case:nth-child(2){
+    height: 95px;
+}
+
+main .row:nth-child(3) .case:nth-child(2){
+    width: 104px;
+    border-right: solid black 15px;
+    border-left: solid black 15px;
+    margin-left: 20px;
+}
+
+main .row:nth-child(3) .case:nth-child(3){
+    width: 330px;
+    border-right: solid black 15px;
+}
+
+main .row:nth-child(3) .case:nth-child(4){
+    width: 140px;
+}
+
+#square12{
+    border-right: black 15px solid;
+}
